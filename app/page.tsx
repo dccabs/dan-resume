@@ -1,6 +1,6 @@
 "use client"
-import styles from './page.module.css'
 
+import Link from "next/link"
 import Header from "@/app/components/Header";
 import Banner from "@/app/components/Banner";
 import FeatureSkills from "@/app/components/FeatureSkills";
@@ -14,7 +14,7 @@ export default function Home() {
         <Banner
             title="Hello there"
         >
-            This resume was built with Next.js 13 and Tailwind CSS by Dan Cabaniss. See the Github repo&nbsp;<span aria-hidden="true">&rarr;</span>
+            This resume was built with Next.js 13 and Tailwind CSS by Dan Cabaniss. <Link href="https://github.com/dccabs/dan-resume">See the Github repo&nbsp;<span aria-hidden="true">&rarr;</span></Link>
         </Banner>
         <Header
             title="Dan Cabaniss"
