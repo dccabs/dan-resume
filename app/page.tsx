@@ -11,11 +11,11 @@ import Education from "@/app/components/Education";
 export default function Home() {
   return (
     <main>
-        <Banner
-            title="Hello there"
-        >
-            This resume was built with Next.js 13 and Tailwind CSS by Dan Cabaniss. <Link href="https://github.com/dccabs/dan-resume">See the Github repo &rarr;    </Link>
-        </Banner>
+        {/*<Banner*/}
+        {/*    title="Hello there"*/}
+        {/*>*/}
+        {/*    This resume was built with Next.js 13 and Tailwind CSS by Dan Cabaniss. <Link href="https://github.com/dccabs/dan-resume">See the Github repo &rarr;    </Link>*/}
+        {/*</Banner>*/}
         <Header
             title="Dan Cabaniss"
             description="A senior front-end developer and team leader with 20 years experience working in complex and enterprise level front end applications."
