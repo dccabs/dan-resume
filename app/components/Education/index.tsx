@@ -4,6 +4,7 @@ const school =
         degree: 'BS in Finance',
         year: '1999',
     }
+
 export default function Example() {
     return (
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

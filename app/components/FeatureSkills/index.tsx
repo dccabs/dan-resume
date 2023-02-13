@@ -1,4 +1,5 @@
-import { ChatBubbleOvalLeftEllipsisIcon, HeartIcon, PencilSquareIcon, TrashIcon, CodeBracketIcon, CodeBracketSquareIcon } from '@heroicons/react/24/outline'
+import {CodeBracketIcon, CodeBracketSquareIcon } from '@heroicons/react/24/outline'
+import * as React from "react";
 
 const features = [
     {
@@ -31,6 +32,12 @@ interface FeatureProps {
     title: string
 }
 
+interface Feature {
+    name: string
+    description: string
+    icon: React.ForwardRefExoticComponent<React.SVGProps<SVGSVGElement>>
+}
+
 
 const Feature = (props: FeatureProps) => {
     const { title } = props
@@ -42,7 +49,7 @@ const Feature = (props: FeatureProps) => {
                         {title}
                     </h2>
                     <dl className="col-span-3 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
-                        {features.map((feature) => (
+                        {features.map((feature: Feature) => (
                             <div key={feature.name}>
                                 <dt className="text-base font-semibold leading-7 text-gray-900 flex items-center mb-6">
                                     <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600 mr-4">
