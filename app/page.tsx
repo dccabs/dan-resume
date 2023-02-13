@@ -14,7 +14,7 @@ export default function Home() {
         <Banner
             title="Hello there"
         >
-            This resume was built with Next.js 13 and Tailwind CSS by Dan Cabaniss. <Link href="https://github.com/dccabs/dan-resume">See the Github repo &rarr;</Link>
+            This resume was built with Next.js 13 and Tailwind CSS by Dan Cabaniss. <Link href="https://github.com/dccabs/dan-resume">See the Github repo &rarr;    </Link>
         </Banner>
         <Header
             title="Dan Cabaniss"
