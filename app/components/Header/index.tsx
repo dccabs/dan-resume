@@ -15,7 +15,7 @@ const Header = (props: HeaderProps) => {
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                     {description}
                 </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">646.286.2960 | dccabs@gmail.com | <Link href="https://github.com/dccabs">github</Link> | <Link href="https://www.linkedin.com/in/dan-cabaniss-b7b1006/">linkedin</Link></p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">646.286.2960 | dccabs@gmail.com | https://github.com/dccabs</p>
             </div>
         </div>
     )

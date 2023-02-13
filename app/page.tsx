@@ -20,7 +20,7 @@ export default function Home() {
             title="Dan Cabaniss"
             description="A senior front-end developer and team leader with 20 years experience working in complex and enterprise level front end applications."
         />
-        <div className="bg-gray-50 py-12 md:py-24 my-12">
+        <div className="bg-gray-50 py-12 md:py-12 my-12">
             <FeatureSkills
                 title="Core Skills"
             />
@@ -29,7 +29,7 @@ export default function Home() {
         <div>
             <WorkExperience />
         </div>
-        <div className="bg-gray-50 py-12 md:py-24 my-12">
+        <div className="bg-gray-50 py-12 md:py-12">
             <Education />
         </div>
     </main>
