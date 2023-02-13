@@ -153,7 +153,7 @@ const companies = [
 
 export default function Example() {
     return (
-        <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-12">
+        <div className="px-6 lg:px-8 mt-12">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Work Experience</h2>
             {companies.map((company, index) => {
                 return (

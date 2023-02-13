@@ -43,8 +43,8 @@ const Feature = (props: FeatureProps) => {
     const { title } = props
     return (
         <div className="py-0 sm:py-0">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+            <div className="px-6 lg:px-8">
+                <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-4">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                         {title}
                     </h2>

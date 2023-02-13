@@ -35,7 +35,7 @@ const features = [
 
 const OtherSkills =() => {
     return (
-        <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-12">
+        <div className="px-6 lg:px-8 mt-12">
             <div className="overflow-hidden bg-white shadow sm:rounded-lg">
                 <div className="px-4 py-5 sm:px-6">
                     <h3 className="text-lg font-medium leading-6 text-gray-900">All Skills</h3>
