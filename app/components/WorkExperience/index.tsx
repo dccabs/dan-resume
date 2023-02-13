@@ -159,7 +159,7 @@ export default function Example() {
                 return (
                     <div key={`company-${index}`}>
                         <div className="py-4">
-                            <h3 className="text-xl font-bold tracking-tight text-gray-900 sm:text-3xl">{company.title} - {company.name}</h3>
+                            <h3 className="text-lg font-bold tracking-tight text-gray-900 sm:text-xl">{company.title} - {company.name}</h3>
                             <p className="text-gray-500 py-2">{company.startDate} - {company.endDate}</p>
                             <p className="text-gray-500 py-2">
                                 {company.descripton}
@@ -167,7 +167,7 @@ export default function Example() {
                         </div>
                         {company?.projects &&
                             <>
-                                <h4 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl mb-4">{company.name} projects</h4>
+                                <h4 className="text-xl font-bold tracking-tight text-gray-900 sm:text-xl mb-4">{company.name} projects</h4>
                                 {company?.projects.map((project, index) => {
                                     return (
                                         <div
