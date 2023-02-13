@@ -158,8 +158,8 @@ export default function Example() {
             {companies.map((company, index) => {
                 return (
                     <div key={`company-${index}`}>
-                        <div className="py-12">
-                            <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{company.title} - {company.name}</h3>
+                        <div className="py-4">
+                            <h3 className="text-xl font-bold tracking-tight text-gray-900 sm:text-3xl">{company.title} - {company.name}</h3>
                             <p className="text-gray-500 py-2">{company.startDate} - {company.endDate}</p>
                             <p className="text-gray-500 py-2">
                                 {company.descripton}

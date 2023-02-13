@@ -48,7 +48,7 @@ const Feature = (props: FeatureProps) => {
                     <h2 className="text-2xl font-bold tracking-tight text-gray-900">
                         {title}
                     </h2>
-                    <dl className="col-span-3 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
+                    <dl className="col-span-3 grid grid-cols-2 gap-x-8 gap-y-16 sm:grid-cols-2">
                         {features.map((feature: Feature) => (
                             <div key={feature.name}>
                                 <dt className="text-base font-semibold leading-7 text-gray-900 flex items-center mb-6">
