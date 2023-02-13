@@ -1,91 +1,37 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
+"use client"
 import styles from './page.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
+import Header from "@/app/components/Header";
+import Banner from "@/app/components/Banner";
+import FeatureSkills from "@/app/components/FeatureSkills";
+import OtherSkills from "@/app/components/OtherSkills";
+import WorkExperience from "@/app/components/WorkExperience";
+import Education from "@/app/components/Education";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+        <Banner
+            title="Hello there"
+        >
+            This resume was built with Next.js 13 and Tailwind CSS by Dan Cabaniss. See the Github repo&nbsp;<span aria-hidden="true">&rarr;</span>
+        </Banner>
+        <Header
+            title="Dan Cabaniss"
+            description="A senior front-end developer and team leader with 20 years experience working in complex and enterprise level front end applications."
         />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
+        <div className="bg-gray-50 py-12 md:py-24 my-12">
+            <FeatureSkills
+                title="Core Skills"
+            />
+            <OtherSkills />
         </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <div>
+            <WorkExperience />
+        </div>
+        <div className="bg-gray-50 py-12 md:py-24 my-12">
+            <Education />
+        </div>
     </main>
   )
 }
