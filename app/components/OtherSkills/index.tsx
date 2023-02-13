@@ -29,7 +29,7 @@ const features = [
     {
         name: 'OTHERS',
         description:
-            'Node, Git, Figma, Postgres, API integrations, Photoshop, Jira, Linear.app, Webhooks, Supabase, Material UI, React Testing Library, Jest, A11Y compliance.',
+            'Typescript, Node, Git, Figma, Postgres, API integrations, Photoshop, Jira, Linear.app, Webhooks, Supabase, Material UI, React Testing Library, Jest, A11Y compliance.',
     },
 ]
 
