@@ -167,7 +167,7 @@ export default function Example() {
                         </div>
                         {company?.projects &&
                             <>
-                                <h4 className="text-xl font-bold tracking-tight text-gray-900 sm:text-xl mb-4">{company.name} projects</h4>
+                                <h4 className="text-lg font-bold tracking-tight text-gray-900 sm:text-lg mb-4">{company.name} projects</h4>
                                 {company?.projects.map((project, index) => {
                                     return (
                                         <div
